@@ -1,1 +1,1 @@
-worker: pythom3 spy.py
+web: pythom3 spy.py
