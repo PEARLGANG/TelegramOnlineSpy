@@ -1,1 +1,1 @@
-web: pythom3 spy.py
+web: python3 spy.py
