@@ -15,10 +15,8 @@ USER_NAME = "@Inches_8"
 
 client = TelegramClient('data_thief', API_ID, API_HASH)
 
-client.connect()
-client.start()
 bot = TelegramClient('bot', API_ID, API_HASH).start(bot_token=BOT_TOKEN)
-
+bot.start()
 data = {}
 
 help_messages = ['/start - start online monitoring ',
@@ -134,7 +132,7 @@ async def start(event):
         counter+=1
         for contact in contacts:
             print(contact)
-            account = await client.get_entity(contact.id)
+            account = await bot.get_entity(contact.id)
 
         if isinstance(account.status, UserStatusOnline):
             if contact.online != True:
